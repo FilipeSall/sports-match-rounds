@@ -1,0 +1,14 @@
+@import url('./header.css');
+
+:root{
+    --headerBg:#33B667;
+    --headerCollor:#FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
