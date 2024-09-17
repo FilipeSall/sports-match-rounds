@@ -5,19 +5,35 @@
     height: 394px;
     border: 1px solid var(--borderColor);
     border-radius: 10px;
+    padding: 14px 10px;
 }
 
 .content__panel-header{
-    border: 1px solid var(--borderColor);
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.content__panel-header__wrapper{
-    
-}
 
 .content__panel-header__title{
     font-size: 16px;
+}
+
+.content__panel-header__wrapper{
+    text-align: center;
+}
+
+.content__panel-header__nav-btn{
+    width: 30px;
+    height: 30px;
+    color: var(--color);
+    font-weight: bold;
+    background-color: var(--bg);
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.content__panel-header__round{
+    font-size: 12px;
+    font-weight: 700;
 }
