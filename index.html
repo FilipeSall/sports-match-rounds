@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite + TS</title>
+  <title>SEVN ESPORTE - Resultados e Rodadas</title>
 
   <!--Meta Tags-->
   <meta name="description" content="Página de resultados de futebol com informações detalhadas sobre rodadas e jogos.">
@@ -23,13 +23,31 @@
   <link rel="stylesheet" href="./src/styles/index.css" />
 
   <!--Scripts-->
-  <script src="./src/main.ts" type="module" defer></script>
+  <script src="./src/scripts/main.ts" type="module" defer></script>
 </head>
 
 <body>
   <header class="header">
-    <h1>SEVN ESPORTES ⚽</h1>
+    <h1 class="header__title">SEVN ESPORTES ⚽</h1>
   </header>
+
+  <main class="content">
+    <h1 class="content__title">Confira as rodadas do nosso campeonato fictício!</h1>
+
+    <div class="content__panel">
+      <header class="content__panel-header">
+        <button id="prev-round" class="content__panel-header__nav-btn" disabled>&lt;</button>
+
+        <div class="content__panel-header__wrapper">
+          <h1 class="content__panel-header__title">Rodadas de Jogos</h1>
+          <p class="content__panel-header__round">Rodada 1</p>
+        </div>
+
+        <button id="next-round" class="content__panel-header__nav-btn">&gt;</button>
+      </header>
+      
+    </div>
+  </main>
 </body>
 
 </html>

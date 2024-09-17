@@ -1,0 +1,23 @@
+.content__panel{
+    display:flex;
+    flex-direction: column;
+    width: 340px;
+    height: 394px;
+    border: 1px solid var(--borderColor);
+    border-radius: 10px;
+}
+
+.content__panel-header{
+    border: 1px solid var(--borderColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content__panel-header__wrapper{
+    
+}
+
+.content__panel-header__title{
+    font-size: 16px;
+}

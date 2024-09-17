@@ -1,8 +1,11 @@
 @import url('./header.css');
+@import url('./content.css');
+@import url('./panel.css');
 
 :root{
-    --headerBg:#33B667;
-    --headerColor:#FFFFFF;
+    --bg:#33B667;
+    --color:#FFFFFF;
+    --borderColor:#DDDDDD;
 }
 
 * {

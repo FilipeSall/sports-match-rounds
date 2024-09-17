@@ -1,6 +1,6 @@
 .header{
-    background-color: var(--headerBg);
-    color: var(--headerColor);
+    background-color: var(--bg);
+    color: var(--color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@
     height: 78px;
 }
 
-.header > h1 {
+.header__title {
     font-size: 22px;
     font-weight: bolder;
 }
