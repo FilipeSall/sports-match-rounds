@@ -1,1 +1,11 @@
-@impor 
+@import url('./header.css');
+
+:root{
+    --headerBg:#33B667;
+    --headerColor:#FFFFFF;
+}
+
+* {
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+}
