@@ -1,4 +1,4 @@
-export interface Game {
+export interface GameProps {
     team_home_id: string;
     team_home_name: string;
     team_home_score: number;
@@ -7,7 +7,9 @@ export interface Game {
     team_away_score: number;
 }
 
-export interface ApiResponse {
-    games: Game[];
-    round: number;
+export interface RoundProps {
+    games: GameProps[]; 
+    round: number; 
 }
+
+export type ApiResponse = RoundProps[]; 
