@@ -14,8 +14,8 @@ let data: ApiResponse | undefined;
 const updateButtonsState = () => {
     if (!data) return;
 
-    prevBtn.disabled = currentRound === 1; // Desativa o botão "anterior" na rodada 1
-    nextBtn.disabled = currentRound === data.length; // Desativa o botão "próximo" na última rodada
+    prevBtn.disabled = currentRound === 1; 
+    nextBtn.disabled = currentRound === data.length; 
 };
 
 // Função para renderizar os jogos de uma rodada
@@ -24,7 +24,7 @@ const renderGame = () => {
 
     const currentGame = data[currentRound - 1];
     roundDisplay.innerHTML = `Rodada ${currentGame.round}`;
-    gamesDisplay.innerHTML = ''; // Limpa os jogos anteriores
+    gamesDisplay.innerHTML = ''; 
 
     // Renderiza os jogos da rodada atual
     currentGame.games.forEach(game => {
@@ -52,7 +52,7 @@ const renderGame = () => {
         gamesDisplay.appendChild(gameElement);
     });
 
-    updateButtonsState(); // Atualiza o estado dos botões
+    updateButtonsState(); 
 };
 
 // Função para navegar para a próxima rodada
