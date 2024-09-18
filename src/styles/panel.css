@@ -70,6 +70,18 @@
     font-weight: bolder;
 }
 
+.score , .team__name{
+    font-weight: bold;
+}
+
+.team__name{
+    font-size: 12px;
+}
+
+.score{
+    font-size: 15px;
+}
+
 @keyframes animeChange {
     0%{
         opacity: 0;

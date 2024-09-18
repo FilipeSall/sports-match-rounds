@@ -36,8 +36,8 @@ export const renderGame = (
         gameElement.innerHTML = `
             <div class="team">
                 ${homeTeamShield} 
-                <span>${game.team_home_name}</span> 
-                <span>${game.team_home_score}</span>
+                <span class="team__name">${game.team_home_name}</span> 
+                <span class="score">${game.team_home_score}</span>
             </div>
             <div class="vs">X</div>
             <div class="team">

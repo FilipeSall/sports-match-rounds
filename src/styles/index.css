@@ -12,3 +12,7 @@
     font-family: "Inter", system-ui;
     font-optical-sizing: auto;
 }
+
+body{
+    width:100vw;
+}

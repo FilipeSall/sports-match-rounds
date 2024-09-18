@@ -33,7 +33,7 @@ const initApp = async (): Promise<void> => {
         const result: ApiResponse | undefined = await fetchData();
         if (result) {
             data = result;
-            renderGame(data, currentRound, roundDisplay, gamesDisplay, prevBtn, nextBtn); // Renderiza a rodada inicial
+            renderGame(data, currentRound, roundDisplay, gamesDisplay, prevBtn, nextBtn); 
         } else {
             gamesDisplay.textContent = 'No data available.';
         }
